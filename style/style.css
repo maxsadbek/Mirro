@@ -141,6 +141,13 @@ header nav #menu {
     background-color: #000;
     color: #fff;
     margin-top: 1.5rem;
+    transition: all 0.4s ease;
+  }
+  .hero .btn button:hover {
+    transform: translateY(-4px);
+  }
+  .hero .btn button:active {
+    transform: translateY(4px);
   }
   .hero .btn p {
     font-size: 20px;
@@ -168,6 +175,81 @@ header nav #menu {
   margin-bottom: 4rem;
 }
 
+.services_parent {
+  display: flex;
+  justify-content: space-around;
+}
+.services_parent .services_box {
+  width: 350px;
+  overflow: hidden;
+  padding: 1rem 2rem;
+}
+.services_parent .services_box h2 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+.services_parent .services_box h3 {
+  color: #555;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+.services_parent .services_box li {
+  margin-bottom: 1rem;
+  font-weight: 600;
+  margin-left: 1rem;
+}
+
+@media screen and (max-width: 601px) {
+  .services_text {
+    text-align: center;
+    margin-top: 5rem;
+  }
+  .services_text h2 {
+    color: #f06a76;
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+  }
+  .services_text h1 {
+    font-size: 2rem;
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 4rem;
+  }
+  .services_parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .services_parent .services_box {
+    width: 90%;
+    overflow: hidden;
+    padding: 1rem 2rem;
+    box-shadow: 0px 0px 10px #555;
+    margin-top: 1rem;
+    transition: all 0.4s ease;
+  }
+  .services_parent .services_box:hover {
+    transform: scale(1.05);
+  }
+  .services_parent .services_box h2 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .services_parent .services_box h3 {
+    color: #555;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+  }
+  .services_parent .services_box li {
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    margin-left: 1rem;
+  }
+}
 .Trusted {
   text-align: center;
   line-height: 2;

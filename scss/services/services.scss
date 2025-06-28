@@ -1,18 +1,107 @@
 @use'../variable' as *;
-.services_text{
+
+.services_text {
     text-align: center;
     margin-top: $rem5;
-    h2{
+
+    h2 {
         color: $red;
         font-size: $font-size3;
         font-weight: $font-weight500;
         letter-spacing: 2px;
         margin-bottom: $rem1;
     }
-    h1{
+
+    h1 {
         font-size: $font-size4;
         width: 70%;
         margin-left: 14rem;
         margin-bottom: 4rem;
+    }
+}
+
+.services_parent {
+    display: flex;
+    justify-content: space-around;
+
+    .services_box {
+        width: 350px;
+        overflow: hidden;
+        padding: $rem1 $rem2;
+
+        h2 {
+            font-size: $rem15;
+            margin-top: $rem1;
+            margin-bottom: $rem15;
+        }
+
+        h3 {
+            color: #555;
+            font-weight: $font-weight400;
+            margin-bottom: $rem1;
+        }
+
+        li {
+            margin-bottom: $rem1;
+            font-weight: $font-weight600;
+            margin-left: $rem1;
+        }
+    }
+}
+
+@media screen and (max-width:601px) {
+
+    .services_text {
+        text-align: center;
+        margin-top: $rem5;
+
+        h2 {
+            color: $red;
+            font-size: $font-size2;
+            font-weight: $font-weight500;
+            letter-spacing: 2px;
+            margin-bottom: $rem1;
+        }
+
+        h1 {
+            font-size: $font-size2;
+            width: 100%;
+            margin-left: 0;
+            margin-bottom: 4rem;
+        }
+    }
+
+    .services_parent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .services_box {
+            width: 90%;
+            overflow: hidden;
+            padding: $rem1 $rem2;
+            box-shadow: 0px 0px 10px #555;
+            margin-top: $rem1;
+            transition: all 0.4s ease;
+            &:hover{
+                transform: scale(1.05);
+            }
+            h2 {
+                font-size: $rem15;
+                margin-top: $rem15;
+                margin-bottom: $rem15;
+            }
+
+            h3 {
+                color: #555;
+                font-weight: $font-weight400;
+                margin-bottom: $rem15;
+            }
+
+            li {
+                margin-bottom: $rem15;
+                font-weight: $font-weight600;
+                margin-left: $rem1;
+            }
+        }
     }
 }
