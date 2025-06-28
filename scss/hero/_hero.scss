@@ -5,9 +5,42 @@ header{
     nav{
         display: flex;
         justify-content: space-between;
+        padding-block: $rem2;
         ul{
             display: flex;
             gap: $rem2;
+            list-style: none;
+        }
+            a{
+            text-decoration: none;
+                margin-right: 10px;
+                font-family: $roboto;
+                color: #000;
+                font-weight: $font-weight500;
+        }
+        #menu{
+            display: none;
         }
     }
+    @media screen and (max-width:600px) {
+        nav{
+        display: flex;
+        justify-content: space-between;
+        padding-block: $rem2;
+        ul{
+            display: none;
+        }
+        #menu{
+            display: block;
+            font-size: 30px;
+            transition: all 0.4s ease;
+        &:hover{
+            transform: translatey(-4px);
+        }
+        &:active{
+            transform: translateY(4px);
+        }
+        }
+    }
+}
 }
