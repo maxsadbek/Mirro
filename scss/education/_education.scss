@@ -1,0 +1,45 @@
+@use'../variable' as*;
+
+.education {
+    margin-top: $rem7;
+    display: flex;
+    justify-content: space-between;
+    .education_box {
+        h3 {
+            font-size: $font-size2;
+            font-weight: $font-weight400;
+        }
+    }
+
+    .education_text {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        p {
+            font-size: $rem18;
+            font-weight: $font-weight500;
+            margin-top: $rem2;
+            margin-bottom: $rem15;
+        }
+
+        i {
+            margin-top: $rem15;
+            font-size: 1.5rem;
+        }
+
+        h4 {
+            font-size: $rem1;
+            margin-top: -15px;
+            color: #555;
+            font-weight: $font-weight400;
+            margin-bottom: 1rem;
+        }
+
+        h5 {
+            font-size: $rem1;
+            margin-top: -15px;
+            color: #555;
+            font-weight: $font-weight400;
+        }
+    }
+}
