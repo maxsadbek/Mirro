@@ -1,0 +1,103 @@
+@use'../variable' as*;
+footer{
+    background-color: $black;
+    margin-top: $rem7;
+    padding: $rem6 $rem3;
+    .footer_box{
+        h1{
+            color: $white;
+            font-size: $font-size3;
+        }
+        h2{
+            color: $blue;
+            font-size: $font-size3;
+            margin-top: $rem1;
+        }
+    }
+    .footer_left{
+        h3{
+            color: $white;
+            margin-top: $rem2;
+        }
+        p{
+            color: #555;
+            font-size: $font-size1;
+            margin-top: $rem2;
+        }
+        .footer_flexbox{
+            display: flex;
+            align-items: center;
+            img{
+                margin-top: 27px;
+                margin-right: 10px;
+            }
+        }
+    }
+    .footer_left{
+        display: flex;
+        justify-content: space-between;
+    }
+    .flex{
+        display: flex;
+        gap: $rem3;
+        color: $white;
+        line-height: 2.5;
+    }
+    img{
+        margin-top: 8rem;
+    }
+}
+@media screen and (max-width:600px) {
+
+footer{
+    background-color: $black;
+    margin-top: $rem7;
+    padding: $rem3 $rem1;
+    .footer_box{
+        h1{
+            color: $white;
+            font-size: $font-size2;
+        }
+        h2{
+            color: $blue;
+            font-size: $font-size2;
+            margin-top: $rem1;
+        }
+    }
+    .footer_left{
+        h3{
+            color: $white;
+            margin-top: $rem2;
+        }
+        p{
+            color: #555;
+            font-size: $font-size1;
+            margin-top: $rem2;
+        }
+        .footer_flexbox{
+            display: flex;
+            align-items: center;
+            img{
+                margin-top: 27px;
+                margin-right: 10px;
+            }
+        }
+    }
+    .footer_left{
+        display: flex;
+        flex-direction: column;
+    }
+    .flex{
+        display: flex;
+        gap: $rem3;
+        color: $white;
+        line-height: 2.5;
+        margin-top: $rem4;
+    }
+    .footer_img{
+        margin-top: 8rem;
+        width: 100%;
+        display: none;
+    }
+}
+}
