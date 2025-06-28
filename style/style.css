@@ -157,6 +157,79 @@ header nav #menu {
     margin-bottom: 2rem;
   }
 }
+.product {
+  margin-top: 7rem;
+}
+.product p {
+  font-size: 1.2rem;
+  width: 42%;
+  line-height: 1.7;
+  color: #555;
+}
+.product .product_text {
+  justify-content: space-between;
+  display: flex;
+}
+
+.product_box h3 {
+  color: #f06a76;
+  font-size: 2rem;
+}
+.product_box h2 {
+  font-size: 3rem;
+  margin-top: 1rem;
+}
+
+.img_card {
+  margin-top: 4rem;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+  gap: 2.5rem;
+}
+
+@media screen and (max-width: 600px) {
+  .product {
+    margin-top: 7rem;
+  }
+  .product p {
+    font-size: 0.9rem;
+    width: 100%;
+    line-height: 1.7;
+    color: #555;
+  }
+  .product .product_text {
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+  }
+  .product_box h3 {
+    color: #f06a76;
+    font-size: 2rem;
+  }
+  .product_box h2 {
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
+  .img_card {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.3rem;
+    width: 90%;
+    align-items: center;
+    object-fit: cover;
+  }
+  .img_card img {
+    margin-top: -30px;
+    width: 100%;
+  }
+  .img_card .img {
+    gap: 1rem;
+  }
+}
 .services_text {
   text-align: center;
   margin-top: 5rem;

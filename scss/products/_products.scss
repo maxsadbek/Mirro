@@ -1,0 +1,90 @@
+@use'../variable' as*;
+
+.product {
+    p {
+        font-size: 1.2rem;
+        width: 42%;
+        line-height: 1.7;
+        color: #555;
+    }
+
+    margin-top: $rem7;
+
+    .product_text {
+        justify-content: space-between;
+        display: flex;
+    }
+}
+
+.product_box {
+
+    h3 {
+        color: $red;
+        font-size: $font-size2;
+    }
+
+    h2 {
+        font-size: $font-size3;
+        margin-top: $rem1;
+    }
+}
+
+.img_card {
+    margin-top: $rem4;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    gap: 2.5rem;
+}
+
+@media screen and (max-width:600px) {
+
+    .product {
+        p {
+            font-size: 0.9rem;
+            width: 100%;
+            line-height: 1.7;
+            color: #555;
+        }
+
+        margin-top: $rem7;
+
+        .product_text {
+            text-align: center;
+            flex-direction: column;
+            display: flex;
+        }
+    }
+
+    .product_box {
+
+        h3 {
+            color: $red;
+            font-size: $font-size2;
+        }
+
+        h2 {
+            font-size: $font-size2;
+            margin-top: $rem1;
+        }
+    }
+
+    .img_card {
+        margin-top: $rem4;
+        display: flex;
+        flex-direction: column;
+        margin-left: 1.3rem;
+        width: 90%;
+        align-items: center;
+        object-fit: cover;
+        img{
+            margin-top: -30px;
+            width: 100%;
+        }
+        .img{
+            gap: $rem1;
+        }
+    }
+}
