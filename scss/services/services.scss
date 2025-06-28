@@ -1,0 +1,18 @@
+@use'../variable' as *;
+.services_text{
+    text-align: center;
+    margin-top: $rem5;
+    h2{
+        color: $red;
+        font-size: $font-size3;
+        font-weight: $font-weight500;
+        letter-spacing: 2px;
+        margin-bottom: $rem1;
+    }
+    h1{
+        font-size: $font-size4;
+        width: 70%;
+        margin-left: 14rem;
+        margin-bottom: 4rem;
+    }
+}

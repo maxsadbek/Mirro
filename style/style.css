@@ -150,6 +150,24 @@ header nav #menu {
     margin-bottom: 2rem;
   }
 }
+.services_text {
+  text-align: center;
+  margin-top: 5rem;
+}
+.services_text h2 {
+  color: #f06a76;
+  font-size: 3rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+}
+.services_text h1 {
+  font-size: 4rem;
+  width: 70%;
+  margin-left: 14rem;
+  margin-bottom: 4rem;
+}
+
 .Trusted {
   text-align: center;
   line-height: 2;
