@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "name": "mirro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "sass": "^1.89.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxsadbek/Mirro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxsadbek/Mirro/issues"
+  },
+  "homepage": "https://github.com/maxsadbek/Mirro#readme"
+}
