@@ -118,10 +118,10 @@ header nav #menu {
     letter-spacing: 0;
   }
   .hero p {
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-top: 2rem;
     color: #555;
-    width: 80%;
+    width: 90%;
   }
   .hero img {
     margin-top: -50px;
@@ -131,6 +131,7 @@ header nav #menu {
     display: flex;
     flex-direction: column;
     width: 100%;
+    text-align: center;
     gap: 0;
   }
   .hero .btn button {
@@ -145,7 +146,78 @@ header nav #menu {
     font-size: 20px;
     margin-bottom: 0;
     color: #000;
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 2rem;
+  }
+}
+.Trusted {
+  text-align: center;
+  line-height: 2;
+}
+.Trusted div {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+  gap: 40px;
+}
+
+.Trusted_text {
+  text-align: center;
+}
+
+p {
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+  .Trusted {
+    text-align: center;
+    line-height: 2;
+    margin-top: 3rem;
+    overflow: auto;
+    margin-top: -30px;
+  }
+  .Trusted div {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 40px;
+    box-shadow: 1px -1px 39px 27px rgba(255, 255, 255, 0.75) inset;
+    margin-bottom: 50px;
+  }
+  .Trusted div img {
+    width: 170px;
+    height: auto;
+    margin-top: 2rem;
+  }
+  .Trusted p {
+    font-size: 2rem;
+  }
+}
+.slider {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider-track {
+  display: flex;
+  width: 2000px;
+  /* Har bir rasm taxminan 250px deb olindi */
+  animation: scroll 20s linear infinite;
+}
+
+.slider img {
+  width: 250px;
+  height: auto;
+  padding: 0 10px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
   }
 }
 

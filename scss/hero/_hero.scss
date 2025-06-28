@@ -110,10 +110,10 @@ header{
         letter-spacing: 0;
     }
     p{
-        font-size: $rem1;
+        font-size: 1.2rem;
         margin-top: $rem2;
         color: #555;
-        width: 80%;
+        width: 90%;
     }
     img{
         margin-top: -50px;
@@ -123,6 +123,7 @@ header{
         display: flex;
         flex-direction: column;
         width: 100%;
+        text-align: center;
         gap: 0;
         button{
             padding: 14px 20px;
@@ -136,7 +137,8 @@ header{
             font-size: 20px;
             margin-bottom: 0;
             color: #000;
-            margin-top: 10px;
+            margin-top: 20px;
+            margin-bottom: $rem2;
         }
     }
   }
