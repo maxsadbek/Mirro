@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "roboto", sans-serif;
 }
 
 .container {
@@ -33,6 +34,7 @@ header nav #menu {
 }
 @media screen and (max-width: 600px) {
   header nav {
+    padding: 0 1rem;
     display: flex;
     justify-content: space-between;
     padding-block: 2rem;
@@ -50,6 +52,100 @@ header nav #menu {
   }
   header nav #menu:active {
     transform: translateY(4px);
+  }
+}
+
+.hero .hero_box {
+  display: flex;
+  margin-top: 5rem;
+}
+.hero h1 {
+  color: #ff8a55;
+  font-family: "Roboto", sans-serif;
+  font-size: 5rem;
+}
+.hero h2 {
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 4.5rem;
+  width: 70%;
+  letter-spacing: 2px;
+}
+.hero p {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  color: #555;
+  width: 80%;
+}
+.hero img {
+  margin-top: -50px;
+}
+.hero .btn {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 2rem;
+}
+.hero .btn button {
+  padding: 14px 25px;
+  font-size: 15px;
+  border-radius: 6px;
+  background-color: #000;
+  color: #fff;
+  margin-top: 1.5rem;
+}
+.hero .btn p {
+  margin-bottom: 2;
+}
+
+@media screen and (max-width: 600px) {
+  .hero_box {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 2rem;
+    padding: 0 1rem;
+  }
+  .hero h1 {
+    color: #ff8a55;
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+  }
+  .hero h2 {
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+    width: 100%;
+    letter-spacing: 0;
+  }
+  .hero p {
+    font-size: 1rem;
+    margin-top: 2rem;
+    color: #555;
+    width: 80%;
+  }
+  .hero img {
+    margin-top: -50px;
+    width: 100%;
+  }
+  .hero .btn {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 0;
+  }
+  .hero .btn button {
+    padding: 14px 20px;
+    font-size: 15px;
+    border-radius: 6px;
+    background-color: #000;
+    color: #fff;
+    margin-top: 1.5rem;
+  }
+  .hero .btn p {
+    font-size: 20px;
+    margin-bottom: 0;
+    color: #000;
+    margin-top: 10px;
   }
 }
 

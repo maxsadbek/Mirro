@@ -1,6 +1,5 @@
 @use'../variable' as*;
 @use'../mixin';
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 header{
     nav{
         display: flex;
@@ -24,6 +23,7 @@ header{
     }
     @media screen and (max-width:600px) {
         nav{
+            padding:0 1rem;
         display: flex;
         justify-content: space-between;
         padding-block: $rem2;
@@ -43,4 +43,101 @@ header{
         }
     }
 }
+}
+.hero{
+.hero_box{
+    display: flex;
+    margin-top: $rem5;
+}
+    h1{
+        color: #ff8a55;
+        font-family: $roboto;
+        font-size: $rem5;
+    }
+    h2{
+        color: #000;
+        font-family: $roboto;
+        font-size: $rem45;
+        width: 70%;
+        letter-spacing: 2px;
+    }
+    p{
+        font-size: $rem15;
+        margin-top: $rem2;
+        color: #555;
+        width: 80%;
+    }
+    img{
+        margin-top: -50px;
+    }
+    .btn{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        gap: 2rem;
+        button{
+            padding: 14px 25px;
+            font-size: 15px;
+            border-radius: 6px;
+            background-color: #000;
+            color: #fff;
+            margin-top: 1.5rem;
+        }
+        p{
+            margin-bottom: 2;
+        }
+    }
+}
+ @media screen and (max-width:600px) {
+
+.hero_box{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: $rem2;
+    padding: 0 1rem;
+}
+  .hero{
+      h1{
+        color: #ff8a55;
+        font-family: $roboto;
+        font-size: $rem2;
+    }
+    h2{
+        color: #000;
+        font-family: $roboto;
+        font-size: $rem15;
+        width: 100%;
+        letter-spacing: 0;
+    }
+    p{
+        font-size: $rem1;
+        margin-top: $rem2;
+        color: #555;
+        width: 80%;
+    }
+    img{
+        margin-top: -50px;
+        width: 100%;
+    }
+    .btn{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 0;
+        button{
+            padding: 14px 20px;
+            font-size: 15px;
+            border-radius: 6px;
+            background-color: #000;
+            color: #fff;
+            margin-top: 1.5rem;
+        }
+        p{
+            font-size: 20px;
+            margin-bottom: 0;
+            color: #000;
+            margin-top: 10px;
+        }
+    }
+  }
 }
