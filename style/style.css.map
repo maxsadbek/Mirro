@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"style.css"}
+{"version":3,"sourceRoot":"","sources":["../scss/hero/_hero.scss","../scss/_variable.scss"],"names":[],"mappings":"AAEQ;AAEJ;EACI;EACA;;AACA;EACI;EACA,KCeN","file":"style.css"}
