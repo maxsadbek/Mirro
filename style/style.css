@@ -412,6 +412,80 @@ header nav #menu {
     margin-left: 1rem;
   }
 }
+.Testimonials {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7rem;
+  align-items: center;
+  gap: 10rem;
+}
+.Testimonials .Testimonials_box h3 {
+  font-size: 2.5rem;
+  color: #3C46FF;
+  font-weight: 400;
+}
+.Testimonials .Testimonials_box h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+.Testimonials .Testimonials_box1 h3 {
+  font-size: 2.2rem;
+  width: 90%;
+  line-height: 1.4;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+}
+.Testimonials .Testimonials_box1 p {
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin-bottom: 0.4rem;
+}
+
+@media screen and (max-width: 600px) {
+  .Testimonials {
+    display: flex;
+    flex-direction: column;
+    margin-top: 7rem;
+    align-items: center;
+    gap: 0rem;
+  }
+  .Testimonials .Testimonials_box {
+    text-align: center;
+  }
+  .Testimonials .Testimonials_box h3 {
+    font-size: 2rem;
+    color: #3C46FF;
+    font-weight: 400;
+  }
+  .Testimonials .Testimonials_box h1 {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  .Testimonials .Testimonials_box img {
+    width: 95%;
+    margin-left: 0.5rem;
+  }
+  .Testimonials .Testimonials_box1 {
+    margin-top: 1rem;
+    padding: 0 10px;
+  }
+  .Testimonials .Testimonials_box1 img {
+    display: none;
+  }
+  .Testimonials .Testimonials_box1 h3 {
+    text-align: center;
+    font-size: 1.4rem;
+    width: 90%;
+    line-height: 1;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .Testimonials .Testimonials_box1 p {
+    font-size: 1rem;
+    font-weight: 800;
+    margin-bottom: 0.4rem;
+  }
+}
 .blog_parent {
   background-color: #000;
   width: 100%;

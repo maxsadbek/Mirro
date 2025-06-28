@@ -52,8 +52,10 @@
         margin-top: $rem7;
         display: flex;
         flex-direction: column;
+
         .education_box {
             margin-top: 6rem;
+
             h3 {
                 font-size: $font-size2;
                 font-weight: $font-weight400;
@@ -94,8 +96,9 @@
             }
 
         }
-           img{
-                width: 100%;
-            }
+
+        img {
+            width: 100%;
+        }
     }
 }
