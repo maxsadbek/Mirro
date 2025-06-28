@@ -195,6 +195,52 @@ header nav #menu {
   font-weight: 400;
 }
 
+@media screen and (max-width: 600px) {
+  .education {
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .education .education_box {
+    margin-top: 6rem;
+  }
+  .education .education_box h3 {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+  .education .education_text {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 1rem;
+  }
+  .education .education_text p {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  .education .education_text i {
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+  }
+  .education .education_text h4 {
+    font-size: 1rem;
+    margin-top: -15px;
+    color: #555;
+    font-weight: 400;
+    margin-bottom: 1rem;
+  }
+  .education .education_text h5 {
+    font-size: 1rem;
+    margin-top: -15px;
+    color: #555;
+    font-weight: 400;
+  }
+  .education img {
+    width: 100%;
+  }
+}
 .product {
   margin-top: 7rem;
 }
