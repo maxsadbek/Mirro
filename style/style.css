@@ -255,6 +255,128 @@ header nav #menu {
     margin-left: 1rem;
   }
 }
+.blog_parent {
+  background-color: #000;
+  width: 100%;
+  height: auto;
+  padding: 5rem 5rem;
+  display: felx;
+}
+.blog_parent .Blog-left h3 {
+  color: gold;
+  font-size: 2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.blog_parent .Blog-left h2 {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-top: 2rem;
+}
+.blog_parent .Blog-left p {
+  color: #fff;
+}
+.blog_parent .Blog-left .view {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.blog_parent .Blog-left .view i {
+  font-size: 1.5rem;
+}
+.blog_parent .Blog_box {
+  display: flex;
+  justify-content: space-between;
+}
+.blog_parent .Blog-right p {
+  color: #999;
+  margin-top: 3rem;
+  font-size: 1rem;
+}
+.blog_parent .Blog-right h3 {
+  color: #fff;
+  font-size: 1.5rem;
+  width: 80%;
+  margin-top: 2rem;
+  letter-spacing: 2px;
+  line-height: 1.6;
+}
+.blog_parent .Blog-right h4 {
+  color: #fff;
+}
+.blog_parent .Blog-right .Blog-left_flex {
+  display: flex;
+  gap: 10px;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+@media screen and (max-width: 600px) {
+  .blog_parent {
+    background-color: #000;
+    width: 100%;
+    height: auto;
+    padding: 2rem 2rem;
+    display: felx;
+  }
+  .blog_parent .Blog-left h3 {
+    color: gold;
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  .blog_parent .Blog-left h2 {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-top: 2rem;
+  }
+  .blog_parent .Blog-left p {
+    color: #fff;
+  }
+  .blog_parent .Blog-left .view {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  .blog_parent .Blog-left .view i {
+    font-size: 1rem;
+  }
+  .blog_parent .Blog_box {
+    display: flex;
+    flex-direction: column;
+  }
+  .blog_parent .Blog-right {
+    width: 100%;
+  }
+  .blog_parent .Blog-right p {
+    color: #999;
+    margin-top: 3rem;
+    font-size: 1rem;
+  }
+  .blog_parent .Blog-right h3 {
+    color: #fff;
+    font-size: 1.5rem;
+    width: 80%;
+    margin-top: 2rem;
+    letter-spacing: 2px;
+    line-height: 1.6;
+  }
+  .blog_parent .Blog-right h4 {
+    color: #fff;
+  }
+  .blog_parent .Blog-right .Blog-left_flex {
+    display: flex;
+    gap: 10px;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+  }
+}
 .Trusted {
   text-align: center;
   line-height: 2;
